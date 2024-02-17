@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items:center ; */
+    position: relative;
+
+    background-color: rgb(215, 228, 250);
+
+    
+}
+h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.703);
+    margin-bottom: 30px;
+
+}
+form{
+position: relative;
+background-color: rgb(153 180 241 / 29%);
+border-radius: 20px;
+    width: 600px;
+    height: 460px;
+    top: 25%;
+    left: 30%;
+    
+    
+}
+fieldset{
+    padding: 15px;
+   width: 600px;
+   /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 20px;
+    
+
+}
+label:not(#remb){
+    margin-top: 25px;
+}
+
+label{
+
+
+    color: rgba(255, 255, 255, 0.703);
+
+}
+.input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.loy .input input:focus {
+    border-bottom: 3px solid #f618a5;
+
+}
+input:not(input[type="checkbox"]){
+    width: 250px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.703);
+    background-color: transparent;
+
+}
+input[type="checkbox"]{
+    margin-left: 50px;
+}
+
+.loy{
+    display: flex;
+    justify-content: space-between;
+    
+}
+button[type="submit"]{
+    
+    padding: 15px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right,rgb(108, 167, 239), rgb(235, 146, 219) ,rgb(138, 168, 205),rgb(98, 98, 236));
+    color: rgba(255, 255, 255, 0.703);
+
+}
+p{
+    position: absolute;
+    right: 0px;
+    color: rgba(255, 255, 255, 0.703);
+
+}
+.submit{
+    margin-top: 25px;
+    text-align: center;
+}
+.social{
+    margin-top: 40px;
+    text-align: center;
+}
+h3{
+    margin: 20px 0px;
+    color: rgba(255, 255, 255, 0.703);
+}

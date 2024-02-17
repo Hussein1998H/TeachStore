@@ -1,0 +1,21 @@
+
+footer ul li a i {
+    font-size: 30px;
+}
+
+header ul li a:hover{
+    background-color: rgb(65, 147, 214);
+    border-radius: 5px;
+}
+#plus:hover{
+    background-color: rgb(79, 235, 92);
+
+
+}
+#minus:hover{
+    background-color: rgb(214, 82, 65);
+}
+
+footer{
+    background-color:rgb(65, 147, 214)
+}

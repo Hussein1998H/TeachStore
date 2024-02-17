@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items:center ; */
+    position: relative;
+    background-color: rgb(215, 228, 250);
+    
+}
+h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.703);
+
+}
+form{
+position: relative;
+background-color: rgb(153 180 241 / 29%);
+    width: 400px;
+    height: 510px;
+    border-radius: 20px;
+
+    top: 20%;
+    left: 35%;
+    
+}
+fieldset{
+    padding: 15px;
+   width: 400px;
+   /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 20px;
+  
+    
+
+}
+label:not(#remb){
+    margin-top: 50px;
+}
+label{
+    color: rgba(255, 255, 255, 0.703);
+
+}
+.input{
+    position: relative;
+    width: 100%;
+}
+
+
+.fa-at ,.fa-lock{
+    position: absolute;
+    bottom: 25px;
+    color: rgba(255, 255, 255, 0.703);
+
+ 
+}
+
+
+#email:focus ,#password:focus  {
+    border-bottom: 3px solid #f618a5;
+
+}
+input:not(input[type="checkbox"]){
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 20px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.703);
+    background-color: transparent;
+
+}
+
+button[type="submit"]{
+    margin-right: 100px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right,rgb(108, 167, 239), rgb(235, 146, 219) ,rgb(138, 168, 205),rgb(98, 98, 236));
+    color: rgba(255, 255, 255, 0.703);
+
+}
+p{
+    position: absolute;
+    right: 0px;
+    color: rgba(255, 255, 255, 0.703);
+
+}
+.submit{
+    margin-top: 25px;
+}
+.social{
+    margin-top: 40px;
+    text-align: center;
+}
+h3{
+    margin: 20px 0px;
+    color: rgba(255, 255, 255, 0.703);
+}
+.fa-google,.fa-square-facebook,.fa-twitter{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.703);
+
+}
